@@ -5,7 +5,7 @@ This repository contains the datasets and analysis scripts associated with the r
 
 ## 📂 Repository Contents
 
-### 1. Datasets (`/data`)
+### 1. Datasets
 The datasets provided here are **derived measures** calculated for this study. To comply with licensing restrictions, the original corpora (SUBTLEX-US, Buckeye Corpus) and lexical resources (IPhOD) are not redistributed.
 
 * **`dataset_content_words.csv` (Primary Dataset)**
@@ -17,7 +17,7 @@ The datasets provided here are **derived measures** calculated for this study. T
     * Contains probability-weighted mixture measures for function words, accounting for pronunciation variants (strong/weak forms).
     * *Columns:* `word`, `spoken_frequency_zipf`, `mixture_phonotactic_probability`, `mixture_competition_risk`, `mixture_phonetic_instability`, `prob_strong_form`.
 
-### 2. Analysis Scripts (`/scripts`)
+### 2. Analysis Scripts
 * **`Lexical_Importance_BLC_v2.ipynb`**: The Python (Jupyter) notebook used to generate the clusters, statistics, and figures reported in the paper.
 
 ## ⚙️ Methodology & Resources
