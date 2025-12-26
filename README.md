@@ -3,7 +3,7 @@
 This repository contains the datasets and analysis scripts associated with the research article:
 **"Lexical Importance in L2 Spoken English: Frequency, Phonological Vulnerability, and Spoken Word Recognition"** 
 
-## 📂 Repository Contents
+## Repository Contents
 
 ### 1. Datasets
 The datasets provided here are **derived measures** calculated for this study. To comply with licensing restrictions, the original corpora (SUBTLEX-US, Buckeye Corpus) and lexical resources (IPhOD) are not redistributed.
@@ -20,11 +20,11 @@ The datasets provided here are **derived measures** calculated for this study. T
 ### 2. Analysis Scripts
 * **`Lexical_Importance_BLC_v2.ipynb`**: The Python (Jupyter) notebook used to generate the clusters, statistics, and figures reported in the paper.
 
-## ⚙️ Methodology & Resources
+## Methodology & Resources
 * **Spoken Frequency**: Calculated using `wordfreq` (SUBTLEX-US).
 * **Phonotactic Probability**: Derived from *Irvine Phonotactic Online Dictionary* (IPhOD) and CMU Dict bigram probabilities.
 * **Competition Risk**: Frequency-weighted neighborhood density calculated within the provided script.
 * **Phonetic Instability**: Computed based on the index defined in the article (Appendix S1), utilizing aggregated variant probabilities.
 
-## 📜 License & Usage
+## License & Usage
 These derived datasets are made available for research and educational purposes. If you use these data or scripts, please cite the original article.
